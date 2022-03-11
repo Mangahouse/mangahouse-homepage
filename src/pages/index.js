@@ -226,29 +226,17 @@ const Index = () => (
       {/* <p className="mt-8 text-xl font-light">
         Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
       </p> */}
-      <div className="flex -mx-2">
-        <div className="w-1/3 px-2 mt-8">
-          {/* <div class="bg-gray-400 h-12"></div> */}
-          <Button size="xl">Get Started Now</Button>
+      <div className="mt-8 flex flex-col md:flex-row">
+        <div className="flex-1 p-3">
+          <Button size="xl">Marketplace</Button>
         </div>
-        <div className="w-1/3 px-2 mt-8">
-          {/* <div class="bg-gray-400 h-12"></div> */}
+        <div className="flex-1 p-3">
           <Button size="xl">Artist Collaboration</Button>
         </div>
-        <div className="w-1/3 px-2 mt-8">
-          {/* <div class="bg-gray-400 h-12"></div> */}
+        <div className="flex-1 p-3">
           <Button size="xl">Maho Token</Button>
         </div>
       </div>
-      {/* <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
-      </p> */}
-      {/* <p className="mt-8">
-        <Button size="xl">Artist Collaboration</Button>
-      </p>
-      <p className="mt-8">
-        <Button size="xl">Maho Token</Button>
-      </p> */}
     </section>
   </Layout>
 );
