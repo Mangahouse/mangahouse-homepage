@@ -8,17 +8,13 @@ const Footer = () => (
         <p className="mt-5">Text Text Text Text Text Text Text Text Text Text Text Text Text </p>
       </div>
       <div className="flex-1 px-3">
-        <h2 className="text-lg font-semibold">Title</h2>
-        <p className="mt-5">Text Text Text Text Text Text Text Text Text Text Text Text Text </p>
-      </div>
-      <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Important Links</h2>
         <ul className="mt-4 leading-loose">
           <li>
-            <a href="#">Terms &amp; Conditions</a>
+            <a href="#">Publication Request Form</a>
           </li>
           <li>
-            <a href="#">Privacy Policy</a>
+            <a href="#">FAQ</a>
           </li>
         </ul>
       </div>
@@ -29,7 +25,19 @@ const Footer = () => (
             <a href="https://twitter.com/MangaHouseNFT" target="_blank">Twitter</a>
           </li>
           <li>
+            <a href="#" target="_blank">Discord</a>
+          </li>
+          <li>
+            <a href="#" target="_blank">Telegram</a>
+          </li>
+          <li>
             <a href="https://github.com/Mangahouse" target="_blank">GitHub</a>
+          </li>
+          <li>
+            <a href="https://github.com/Mangahouse" target="_blank">Medium</a>
+          </li>
+          <li>
+            <a href="https://github.com/Mangahouse" target="_blank">Gitbook</a>
           </li>
         </ul>
       </div>

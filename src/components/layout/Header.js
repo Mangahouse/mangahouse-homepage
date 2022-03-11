@@ -10,21 +10,21 @@ const Header = () => (
         <LogoIcon />
       </a>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#features">
-          Features
+        <AnchorLink className="px-4" href="#">
+          MANGAHOUSE
         </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
-          Services
+        <AnchorLink className="px-4" href="#">
+          $MAHO TOKEN
         </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
-          Stats
+        <AnchorLink className="px-4" href="#">
+          MEDIA
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
-          Testimonials
+        <AnchorLink className="px-4" href="#">
+          Wiki
         </AnchorLink>
       </div>
       <div className="hidden md:block">
-        <Button className="text-sm">Launch App</Button>
+        <Button className="text-sm">Buy $MAHO</Button>
       </div>
     </div>
   </header>
