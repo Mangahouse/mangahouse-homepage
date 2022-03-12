@@ -11,7 +11,7 @@ const Header = () => (
       </a>
       <div className="flex mt-4 sm:mt-0">
         <AnchorLink className="px-4" href="#">
-          MANGAHOUSE
+          Manga House
         </AnchorLink>
         <AnchorLink className="px-4" href="#">
           $MAHO TOKEN

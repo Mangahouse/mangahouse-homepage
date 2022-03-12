@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className="container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800">
+  // <footer className="container mx-auto py-16 px-3">
+  <footer className="mx-auto py-16 px-3 bg-gray-400">
     <div className="flex -mx-3">
       <div className="flex-1 px-3">
-        <h2 className="text-lg font-semibold">About Us</h2>
-        <p className="mt-5">Text Text Text Text Text Text Text Text Text Text Text Text Text </p>
+        <img className="max-w-sm" src="/static/mangahouse-logo.png" alt="mangahouse logo" />
       </div>
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Important Links</h2>
